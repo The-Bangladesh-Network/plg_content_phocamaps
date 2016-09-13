@@ -71,4 +71,8 @@
 	</fields>
 	</config>
 
+    <updateservers>
+        <server type="extension" name="Phoca Maps Plugin">https://raw.githubusercontent.com/delorm-designs/csl-phocamaps-plugin/master/manifest.xml</server>
+    </updateservers>
+
 </extension>
