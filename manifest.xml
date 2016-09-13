@@ -1,0 +1,23 @@
+<updates>
+    <update>
+        <name><![CDATA[CSL Phoca Maps Plugin]]></name>
+        <description><![CDATA[CSL Phoca Maps Plugin]]></description>
+        <element>plg_content_phocamaps</element>
+        <type>plugin</type>
+        <client>0</client>
+        <version>3.0.4</version>
+        <infourl title="de Lorm Designs">http://www.delormdesigns.com/</infourl>
+        <downloads>
+            <downloadurl type="full" format="zip">
+                https://github.com/delorm-designs/csl-phocamaps-plugin/archive/plg_content_phocamaps_v3.0.4.zip
+            </downloadurl>
+        </downloads>
+        <tags>
+            <tag>stable</tag>
+        </tags>
+        <section>Updates</section>
+        <maintainer><![CDATA[de Lorm Designs]]></maintainer>
+        <maintainerurl>http://www.delormdesigns.com/</maintainerurl>
+        <targetplatform name="joomla" version="3.*"/>
+    </update>
+</updates>
