@@ -358,9 +358,9 @@ if ((!isset($mapp->longitude))
 			
 			$output .= '<div class="pmroute">';
 			$output .= '<form class="form-inline" action="#" onsubmit="setPhocaDir'.$id.'(this.pmfrom'.$id.'.value, this.pmto'.$id.'.value); return false;">';
-			$output .= JText::_('PLG_CONTENT_PHOCAMAPS_FROM_ADDRESS').': <input class="pm-input-route input" type="text" size="30" id="fromPMAddress'.$id.'" name="pmfrom'.$id.'" value=""/>';
+			$output .= '<div class="row"><div class="col-xs-12"><label>'.JText::_('PLG_CONTENT_PHOCAMAPS_FROM_ADDRESS').':</label></div><div class="col-xs-9"><input class="pm-input-route input form-control" type="text" size="30" id="fromPMAddress'.$id.'" name="pmfrom'.$id.'" value=""/></div>';
 			$output .= $form;
-			$output .= ' <input name="pmsubmit'.$id.'" type="submit" class="pm-input-route-btn btn" value="'.JText::_('PLG_CONTENT_PHOCAMAPS_GET_ROUTE').'" />';
+			$output .= '<div class="col-xs-3"><input name="pmsubmit'.$id.'" type="submit" class="pm-input-route-btn btn btn-success" value="'.JText::_('PLG_CONTENT_PHOCAMAPS_GET_ROUTE').'" /></div>';
 			$output .= '</form></div>';
 			$output .= '<div id="phocaDir'.$id.'">';
 			if ($tmpl['display_print_route'] == 1) {
